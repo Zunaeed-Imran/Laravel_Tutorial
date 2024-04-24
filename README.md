@@ -13,4 +13,22 @@
 - `php -r "unlink('composer-setup.php');"`
 - than `sudo mv composer.phar /usr/local/bin/composer`
 - than varify the composer `composer`
+- [composer tutorial](https://youtu.be/Mlmth9Bq6xw?si=qqmaanetXZi4Nps6)
 - check the version of composer `composer -V`
+- after that we can create laravel project using official Document. - topic [Creating a Laravel Project]
+- `composer create-project laravel/laravel example-app`
+- Environment setup done.
+- now we have to start locak host. 
+
+
+### Facing Problem creating new project / step of how i solved.
+- `sudo apt install php-curl`
+- `composer update`
+
+
+
+### Done task for today
+- Learn Laravel From Scratch Introduction.
+- install Composer.
+- Environment Setup & Laravel Installation.
+- 
