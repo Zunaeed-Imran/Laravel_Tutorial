@@ -19,11 +19,16 @@
 - `composer create-project laravel/laravel example-app`
 - Environment setup done.
 - now we have to start locak host. 
-
+- `php artisan serve`
 
 ### Facing Problem creating new project / step of how i solved.
 - `sudo apt install php-curl`
 - `composer update`
+- not wor after that i run some more command.
+- `sudo apt install php-xml`
+- `sudo service apache2 restart`
+- `composer install`
+- than it worked `php artisan serve`
 
 
 
