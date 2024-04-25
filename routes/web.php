@@ -17,14 +17,28 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Practicing get method.
 Route::get('/test', function () {
     echo 'Hello imran';
 });
 
+// Practicing any method.
 Route::any('/test2', function () {
     echo 'This is Post method testing';
 });
 
+// Practicing on making file fomr views file.
 Route::get('/demo/{name?}', function ($name = null) {
     return view('demo') . $name;
 });
+
+// wildcard practice (also add constrain)
+// Route::get('/posts/{id}', function ($id) {
+//     return response('post' . $id);
+// })->where('id', '[0-9]+');
+
+// Die Dump Practice
+Route::get('/posts/{id}', function ($id) {
+    ddd($id);
+    return response('post' . $id);
+})->where('id', '[0-9]+');

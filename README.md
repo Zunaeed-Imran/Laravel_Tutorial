@@ -41,4 +41,8 @@
 
 -   Learning Routing & Responses.
 -   Preacticing Routing & Responses get and post method.
+-   Learning Wildcard Endpoints.
+-   Preactice wildcard constrain.
+-   Learning Route Constraints.
+-   Learning Die Dump Helpers.
 -
