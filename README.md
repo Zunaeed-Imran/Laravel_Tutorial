@@ -38,4 +38,7 @@
 -   Environment Setup & Laravel Installation.
 -   Knowing about basic file folder structure in Laravel.
 -   Knowing about the design pattern.
+
+-   Learning Routing & Responses.
+-   Preacticing Routing & Responses get and post method.
 -

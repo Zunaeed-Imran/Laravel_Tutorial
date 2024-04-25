@@ -20,3 +20,11 @@ Route::get('/', function () {
 Route::get('/test', function () {
     echo 'Hello imran';
 });
+
+Route::any('/test2', function () {
+    echo 'This is Post method testing';
+});
+
+Route::get('/demo/{name?}', function ($name = null) {
+    return view('demo') . $name;
+});
