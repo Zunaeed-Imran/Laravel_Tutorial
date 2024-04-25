@@ -47,4 +47,8 @@
 -   Learning Die Dump Helpers.
 -   Practicing Die dump debug.
 -   Learning Request & Query Params.
+-   Learning View Basics & Passing Data.
+-   Practicing Basics Passing Data in view folder.
+-   Learning Blade Templates & Basic Directives.
+-   Practice Blade Templates basic directive.
 -

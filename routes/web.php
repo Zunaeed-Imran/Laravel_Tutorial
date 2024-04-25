@@ -15,24 +15,49 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
+
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('demo', [
+        'heading' => 'latest listing',
+        'listings' => [
+            [
+                'id' => 1,
+                'title' => '1st lsting',
+                'description' => 'This is 1st description for my first laraval learning'
+            ],
+            [
+                'id' => 2,
+                'title' => '2nd lsting',
+                'description' => 'This is 2nd description for my first laraval learning'
+            ]
+        ]
+    ]);
 });
 
-// Practicing get method.
-Route::get('/test', function () {
-    echo 'Hello imran';
-});
 
-// Practicing any method.
-Route::any('/test2', function () {
-    echo 'This is Post method testing';
-});
+
+
+
+// // Practicing get method.
+// Route::get('/test', function () {
+//     echo 'Hello imran';
+// });
+
+// // Practicing any method.
+// Route::any('/test2', function () {
+//     echo 'This is Post method testing';
+// });
 
 // Practicing on making file fomr views file.
-Route::get('/demo/{name?}', function ($name = null) {
-    return view('demo') . $name;
-});
+// Route::get('/demo/{name?}', function ($name = null) {
+//     return view('demo') . $name;
+// });
 
 // wildcard practice (also add constrain)
 // Route::get('/posts/{id}', function ($id) {
@@ -40,12 +65,12 @@ Route::get('/demo/{name?}', function ($name = null) {
 // })->where('id', '[0-9]+');
 
 // Die Dump Practice
-Route::get('/posts/{id}', function ($id) {
-    ddd($id);
-    return response('post' . $id);
-})->where('id', '[0-9]+');
+// Route::get('/posts/{id}', function ($id) {
+//     ddd($id);
+//     return response('post' . $id);
+// })->where('id', '[0-9]+');
 
-// Request & Query Params.
-Route::get('/search', function (Request $request) {
-    dd($request);
-});
+// // Request & Query Params.
+// Route::get('/search', function (Request $request) {
+//     dd($request);
+// });
