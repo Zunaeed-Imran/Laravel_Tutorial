@@ -1,5 +1,7 @@
 <?php
 
+
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -42,3 +44,8 @@ Route::get('/posts/{id}', function ($id) {
     ddd($id);
     return response('post' . $id);
 })->where('id', '[0-9]+');
+
+// Request & Query Params.
+Route::get('/search', function (Request $request) {
+    dd($request);
+});
