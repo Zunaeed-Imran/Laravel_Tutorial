@@ -31,6 +31,12 @@
 -   `composer install`
 -   than it worked `php artisan serve`
 
+## Database make command.
+
+-   `php artisan make:migration create_listing_table` with that commadn we can create table in the migration folder
+-   but we should take command form documentation.
+-
+
 ### Done task for today
 
 -   Learn Laravel From Scratch Introduction.
@@ -53,4 +59,7 @@
 -   Practice Blade Templates basic directive.
 
 -   Learning Creating a Basic Model.
+-   Database Setup & Config
+-   Create Database & User.
+-   Creating Database Migrations.
 -
