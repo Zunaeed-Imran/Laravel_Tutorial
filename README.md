@@ -51,4 +51,6 @@
 -   Practicing Basics Passing Data in view folder.
 -   Learning Blade Templates & Basic Directives.
 -   Practice Blade Templates basic directive.
+
+-   Learning Creating a Basic Model.
 -

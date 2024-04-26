@@ -3,6 +3,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Models\Listing;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,18 +26,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('demo', [
         'heading' => 'latest listing',
-        'listings' => [
-            [
-                'id' => 1,
-                'title' => '1st lsting',
-                'description' => 'This is 1st description for my first laraval learning'
-            ],
-            [
-                'id' => 2,
-                'title' => '2nd lsting',
-                'description' => 'This is 2nd description for my first laraval learning'
-            ]
-        ]
+        'listings' => Listing::all()
     ]);
 });
 
