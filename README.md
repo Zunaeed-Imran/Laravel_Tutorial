@@ -35,7 +35,7 @@
 
 -   `php artisan make:migration create_listing_table` with that commadn we can create table in the migration folder
 -   but we should take command form documentation.
--
+-   `php artisan migrate`
 
 ### Done task for today
 
