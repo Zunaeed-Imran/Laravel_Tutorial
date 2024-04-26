@@ -4,7 +4,9 @@
 
 
 @foreach ($listings as $listing)
-  <h2><?php echo $listing['title'] ?></h2>
+  <h2>
+    <a href="/listings{{$listing['id']}}">{{$listing['title']}}</a>
+  </h2>
   <h2>{{$listing['description']}}</h2>
 @endforeach
 
