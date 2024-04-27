@@ -21,7 +21,7 @@
 -   now we have to start locak host.
 -   `php artisan serve`
 
-### Facing Problem creating new project / step of how i solved.
+## Facing Problem creating new project / step of how i solved.
 
 -   `sudo apt install php-curl`
 -   `composer update`
@@ -30,6 +30,10 @@
 -   `sudo service apache2 restart`
 -   `composer install`
 -   than it worked `php artisan serve`
+-   #### i have dacing the problem with "Database: Migrations"
+-   `sudo apt-get install php-mysql` to install mySql Driver.
+-   `extension=mysql.so` than i enable it, by this command.
+-   `sudo service apache2 restart` and `sudo service nginx restart` i use for restart, and have to restart `xamm_server` also. than it was fixed form migration problem.
 
 ## Database make command.
 
@@ -38,9 +42,9 @@
 -   when i use terminal i can `exit` in my sql
 -   i can log in by `mysql -u imran -p` than use the password, it was `password`
 -   with laravel we don't have to create table colum we can migrate.
--   `php artisan make:migration create_listing_table` with that commadn we can create table in the migration folder
+-   `php artisan migrate` with this command we have to migrate.
 -   but we should take command form documentation.
--   `php artisan migrate`
+-   `php artisan make:migration create_listing_table` with that commadn we can create table in the migration folder
 
 ### Done task for today
 
