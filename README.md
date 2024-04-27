@@ -33,6 +33,7 @@
 
 ## Database make command.
 
+-   after install laravel i have face problem with xampp and i solved it by using this command `sudo service apache2 stop`
 -   `php artisan make:migration create_listing_table` with that commadn we can create table in the migration folder
 -   but we should take command form documentation.
 -   `php artisan migrate`
@@ -62,4 +63,6 @@
 -   Database Setup & Config
 -   Create Database & User.
 -   Creating Database Migrations.
+
+-   Practicing Running Migrations.
 -
