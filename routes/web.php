@@ -24,14 +24,14 @@ use App\Models\Listing;
 
 // All listing
 Route::get('/', function () {
-    return view('demo', [
-        'heading' => 'latest listing',
+    return view('listings', [
+        'heading' => 'Latest Listing',
         'listings' => Listing::all()
     ]);
 });
 
 // Single Listing
-Route::get('/listing{id}', function ($id) {
+Route::get('/listings{id}', function ($id) {
     return view('listing', [
         'listing' => Listing::find($id)
     ]);

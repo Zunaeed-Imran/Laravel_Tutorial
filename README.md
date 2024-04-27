@@ -30,10 +30,14 @@
 -   `sudo service apache2 restart`
 -   `composer install`
 -   than it worked `php artisan serve`
+
 -   #### i have dacing the problem with "Database: Migrations"
 -   `sudo apt-get install php-mysql` to install mySql Driver.
 -   `extension=mysql.so` than i enable it, by this command.
 -   `sudo service apache2 restart` and `sudo service nginx restart` i use for restart, and have to restart `xamm_server` also. than it was fixed form migration problem.
+
+-   ### i have facing problem when i reafresh the migrate (`php artisan migrate:refresh`)
+-   `php --ini` /etc/php/8.1/cli/php.ini. i change `extension=mbstring` but it is not fixed.
 
 ## Database make command.
 
@@ -50,6 +54,8 @@
 -   `php artisan db:seed` with this command we can seed. it randomly generated user in the 'user' table.
 -   `php artisan migrate:refresh` this command will refersh also can delete random table if i commant seed:line.
 -   `php artisan migrate:refresh --seed` it will refresh and seed a new table.
+
+-   `php artisan make:model File_name` for mking model in the model folder.
 
 ### Done task for today
 
@@ -80,5 +86,6 @@
 -   Practicing Running Migrations.
 -   Learn Database Seeding.
 -   Practicing Seeding in DB.
--   Practicing Create an Eloquent Model.
+-   Learning Create an Eloquent Model.
+-   Practicing Eloquent Model.
 -
