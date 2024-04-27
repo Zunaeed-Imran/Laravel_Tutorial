@@ -44,7 +44,8 @@
 -   with laravel we don't have to create table colum we can migrate.
 -   `php artisan migrate` with this command we have to migrate.
 -   but we should take command form documentation.
--   `php artisan make:migration create_listing_table` with that commadn we can create table in the migration folder
+-   `php artisan make:migration create_listing_table` with that commadn we can create table in the migration folder.
+-   after cerating this command we have to migrate `php artisan migrate` for creating in database.
 
 ### Done task for today
 
