@@ -91,5 +91,7 @@
 -   Practicing Seeding in DB.
 -   Learning Create an Eloquent Model.
 -   Practicing Eloquent Model.
--   Practicing Creating a Factory.
+-   Knowing Creating a Factory.
+-   Knowing Creating a Layout & Sections.
+-   Learning Adding the Theme HTML.
 -

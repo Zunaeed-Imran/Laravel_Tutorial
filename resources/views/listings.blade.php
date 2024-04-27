@@ -1,3 +1,9 @@
+@extends('layout')
+
+@section('content')
+    
+
+
 <h1>Laravel 11 Learning</h1>
 
 <h2>{{$heading}}</h2>
@@ -27,3 +33,5 @@
  <p>No listing Found</p>
  @endif 
  
+
+ @endsection
