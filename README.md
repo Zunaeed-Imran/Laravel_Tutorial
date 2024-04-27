@@ -34,6 +34,10 @@
 ## Database make command.
 
 -   after install laravel i have face problem with xampp and i solved it by using this command `sudo service apache2 stop`
+-   i use mySql Cheat Sheet form "Brand"
+-   when i use terminal i can `exit` in my sql
+-   i can log in by `mysql -u imran -p` than use the password, it was `password`
+-   with laravel we don't have to create table colum we can migrate.
 -   `php artisan make:migration create_listing_table` with that commadn we can create table in the migration folder
 -   but we should take command form documentation.
 -   `php artisan migrate`
