@@ -46,6 +46,10 @@
 -   but we should take command form documentation.
 -   `php artisan make:migration create_listing_table` with that commadn we can create table in the migration folder.
 -   after cerating this command we have to migrate `php artisan migrate` for creating in database.
+-   "Database Seeding" in database folder seeder "uncommand" a line for making rander user list in database.
+-   `php artisan db:seed` with this command we can seed. it randomly generated user in the 'user' table.
+-   `php artisan migrate:refresh` this command will refersh also can delete random table if i commant seed:line.
+-   `php artisan migrate:refresh --seed` it will refresh and seed a new table.
 
 ### Done task for today
 
@@ -74,4 +78,7 @@
 -   Creating Database Migrations.
 
 -   Practicing Running Migrations.
+-   Learn Database Seeding.
+-   Practicing Seeding in DB.
+-   Practicing Create an Eloquent Model.
 -
