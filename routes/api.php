@@ -19,11 +19,12 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-// API Routes Practice
-Route::get('/post3', function () {
-    return response()->json([
-        [
-            'title' => 'Post One'
-        ]
-    ]);
-});
+
+// // API Routes Practice
+// Route::get('/post3', function () {
+//     return response()->json([
+//         [
+//             'title' => 'Post One'
+//         ]
+//     ]);
+// });
