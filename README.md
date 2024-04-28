@@ -58,7 +58,7 @@
 -   `php artisan make:model File_name` for mking model in the model folder.
 
 -   `php artisan make:factory Listingfactory` for making factory in factory folder.
--   `php artisan migrate:refresh --seed` it will refresh and make factory in the database.
+-   `php artisan migrate:fresh --seed` it will refresh and make factory in the database.
 
 ### Done task for today
 
