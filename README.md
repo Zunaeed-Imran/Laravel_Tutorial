@@ -68,6 +68,8 @@
 -   than in the 'web.php' we have to make function for single list.
 -   after setup database we run migrate `php artisan make:migration create_listing_table`
 -   than we run migrate command to rerefresh to database form VS code `php artisan migrate`
+-   (58 minutes) after we delete the static listing folder and make it dynamic.
+-   `php artisan make:model File_name` we make model listing by using terminal
 -   `php artisan db:seed` we seed in the database seeder folder.
 -   than 'databaseSdeeder' folder we uncommand some line and than
 -   we can refresh by `php artisan migrate:fresh` all data form database will delete.
