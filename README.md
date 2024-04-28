@@ -93,5 +93,6 @@
 -   Practicing Eloquent Model.
 -   Knowing Creating a Factory.
 -   Knowing Creating a Layout & Sections.
+
 -   Learning Adding the Theme HTML.
 -
