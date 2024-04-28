@@ -77,7 +77,10 @@
 -   `php artisan make:model File_name` than we make model in the "app->model" folder.
 -   than we add some text data in the 'DatabaseSeeder' file manually.
 -   `php artisan migrate:fresh --seed` than we run the command than it will add data to date base.
--
+-   `php artisan make:factory Listingfactory` than we make factory in the factory folder.
+-   than i add some sattic data for dynamic generate in the "factory->luistingfactory.php" file.
+-   than remove form "databaseseeder.php" file remove the static data and add function for dynamic data generate.
+-   `php artisan migrate:fresh --seed` than run this command and it will add data to the database dynamically.
 
 ### Done task for today
 
