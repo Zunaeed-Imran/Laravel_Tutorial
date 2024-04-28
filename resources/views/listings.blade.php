@@ -20,18 +20,18 @@
 
 {{-- we also have php derictive  --}}
 
-@php
+{{-- @php
   $test = 1;
 @endphp
-{{$test}}
+{{$test}} --}}
 
 
 
 
  {{-- condational directive  --}}
- @if(count($listings) ==0)
+ {{-- @if(count($listings) ==0)
  <p>No listing Found</p>
- @endif 
+ @endif  --}}
  
 
  @endsection

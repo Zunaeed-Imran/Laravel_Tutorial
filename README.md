@@ -60,6 +60,23 @@
 -   `php artisan make:factory Listingfactory` for making factory in factory folder.
 -   `php artisan migrate:fresh --seed` it will refresh and make factory in the database.
 
+### Process of this project making after basic setup.
+
+-   First we make model Listing by `php artisan make:model File_name`
+-   (39 minutes) we have to add data staticly in "app->model->listing"
+-   than we have to make another condation in the "app->model->listing" file.
+-   than in the 'web.php' we have to make function for single list.
+-   after setup database we run migrate `php artisan make:migration create_listing_table`
+-   than we run migrate command to rerefresh to database form VS code `php artisan migrate`
+-   `php artisan db:seed` we seed in the database seeder folder.
+-   than 'databaseSdeeder' folder we uncommand some line and than
+-   we can refresh by `php artisan migrate:fresh` all data form database will delete.
+-   and also can `php artisan migrate:fresh --seed` refresh and add a new data, in the data table.
+-   `php artisan make:model File_name` than we make model in the "app->model" folder.
+-   than we add some text data in the 'DatabaseSeeder' file manually.
+-   `php artisan migrate:fresh --seed` than we run the command than it will add data to date base.
+-
+
 ### Done task for today
 
 -   Learn Laravel From Scratch Introduction.
