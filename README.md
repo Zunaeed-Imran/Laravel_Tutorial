@@ -52,8 +52,8 @@
 -   after cerating this command we have to migrate `php artisan migrate` for creating in database.
 -   "Database Seeding" in database folder seeder "uncommand" a line for making rander user list in database.
 -   `php artisan db:seed` with this command we can seed. it randomly generated user in the 'user' table.
--   `php artisan migrate:refresh` this command will refersh also can delete random table if i commant seed:line.
--   `php artisan migrate:refresh --seed` it will refresh and seed a new table.
+-   `php artisan migrate:fresh` this command will refersh also can delete random table if i commant seed:line.
+-   `php artisan migrate:fresh --seed` it will refresh and seed a new table.
 
 -   `php artisan make:model File_name` for mking model in the model folder.
 
