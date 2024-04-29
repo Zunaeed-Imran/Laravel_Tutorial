@@ -9,7 +9,7 @@
 </head>
 <body>
   <h1>Laragigs</h1>
-  
+   {{-- View output  --}}
   @yield('content')
 
 </body>
