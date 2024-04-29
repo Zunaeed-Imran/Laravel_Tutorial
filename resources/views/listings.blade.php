@@ -4,16 +4,14 @@
     
 
 
-<h1>Laravel 11 Learning</h1>
-
-<h2>{{$heading}}</h2>
+<h1 class="text-red-500">{{$heading}}</h1>
 
 
 @foreach ($listings as $listing)
   <h2>
     <a href="/listings{{$listing['id']}}">{{$listing['title']}}</a>
   </h2>
-  <h2>{{$listing['description']}}</h2>
+  <p>{{$listing['description']}}</p>
 @endforeach
 
 
@@ -29,9 +27,9 @@
 
 
  {{-- condational directive  --}}
- {{-- @if(count($listings) ==0)
+ @if(count($listings) == 0)
  <p>No listing Found</p>
- @endif  --}}
+ @endif 
  
 
  @endsection
