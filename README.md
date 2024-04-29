@@ -81,6 +81,7 @@
 -   than i add some sattic data for dynamic generate in the "factory->luistingfactory.php" file.
 -   than remove form "databaseseeder.php" file remove the static data and add function for dynamic data generate.
 -   `php artisan migrate:fresh --seed` than run this command and it will add data to the database dynamically.
+-   `php artisan db:seed` i add more and more in the database list.
 
 ### Done task for today
 
@@ -116,5 +117,7 @@
 -   Knowing Creating a Factory.
 -   Knowing Creating a Layout & Sections.
 
--   Learning Adding the Theme HTML.
+-   Practicing Adding the Theme HTML.
+-   Knowing about Template Partials in the project.
+-   Practicng make Partials folder.
 -
