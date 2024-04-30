@@ -125,4 +125,5 @@
 -   knowing Route Model Binding.
 -   Practicing Blade Components using props.
 -   Practicing Component Attributes.
+-   Learning Tags Component.
 -
