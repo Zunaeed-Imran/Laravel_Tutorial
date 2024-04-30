@@ -120,4 +120,8 @@
 -   Practicing Adding the Theme HTML.
 -   Knowing about Template Partials in the project.
 -   Practicng make Partials folder.
+
+-   Practicing Single Listing Formatting.
+-   knowing Route Model Binding.
+-   Practicing Blade Components using props.
 -
