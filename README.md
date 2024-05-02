@@ -83,6 +83,13 @@
 -   `php artisan migrate:fresh --seed` than run this command and it will add data to the database dynamically.
 -   `php artisan db:seed` i add more and more in the database list.
 
+### Some command fro Laravel
+
+-   `php artisan serve` after open vs code for laravel terminal.
+-   `npm run dev` for run tailwind after open VS code for tailwind terminal.
+-   `php artisan migrate` for connect database.
+-   `php artisan make:controller ListingController` Make controller.
+
 ### Done task for today
 
 -   Learn Laravel From Scratch Introduction.
@@ -126,4 +133,9 @@
 -   Practicing Blade Components using props.
 -   Practicing Component Attributes.
 -   Learning Tags Component.
+
+-   Learning Controllers
+-   Learning Blade template basic
+-   reading Blade template documentation.
+-   Learning creating CRUD in laravel.
 -
