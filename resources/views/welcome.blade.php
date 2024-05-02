@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        {{-- Tailwind post CSS laravel --}}
+          @vite('resources/css/app.css')
+
         <title>Laravel</title>
 
         <!-- Fonts -->
