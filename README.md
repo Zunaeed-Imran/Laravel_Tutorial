@@ -5,6 +5,7 @@
 -   first setting up the php on my ubuntu system
 -   `sudo apt update`
 -   `sudo apt install php`
+-   [for windows php && environment install](https://youtu.be/yFFXPAOvIic?si=Ax7eHGBaqymoN6Vp) 
 -   than check by using `php -v` command.
 -   now install composer form official document.
 -   `php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"`
