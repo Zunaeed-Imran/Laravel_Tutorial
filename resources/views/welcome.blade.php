@@ -15,8 +15,16 @@
         <div class="bg-gray-400 text-center p-2 h-96">
             <div class="h-full max-h-full">
                 <h1>CRUD APP</h1><br>
+
+        {{-- for render  List  --}}
+                @foreach ($listItems as $listItem)
+                    <p>Item: {{$listItem->name}}</p>
+                @endforeach
+
+
                 <form method="POST" action="{{ route('saveItem')}}">
                   {{csrf_field() }}
+
                     <input type="text" name="text"><br>
                     <button class="bg-[#fcba03] p-2 rounded-md" type="submit">ADD</button>
                 </form>

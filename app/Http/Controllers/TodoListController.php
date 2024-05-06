@@ -10,7 +10,7 @@ class TodoListController extends Controller
 
     public function index()
     {
-        return view('welcome');
+        return view('welcome', ['listingItems' => Listingitem::all()]);
     }
 
     public function saveItem(Request $request)
@@ -21,6 +21,6 @@ class TodoListController extends Controller
         $newListItem->save();
 
 
-        return view('welcome');
+        return view('welcome', ['listingItems' => Listingitem::all()]);
     }
 }
