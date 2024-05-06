@@ -16,7 +16,7 @@
             <div class="h-full max-h-full">
                 <h1>CRUD APP</h1><br>
                 <form method="POST" action="{{ route('saveItem')}}">
-                  {{-- csrf field  --}}
+                  {{csrf_field() }}
                     <input type="text" name="text"><br>
                     <button class="bg-[#fcba03] p-2 rounded-md" type="submit">ADD</button>
                 </form>
