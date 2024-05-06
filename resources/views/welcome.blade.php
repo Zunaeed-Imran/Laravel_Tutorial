@@ -21,7 +21,7 @@
                 <div>
                     <p>Item: {{$listItem->name}}</p>
 
-                    <form action="{{ route('markComplete')}}" method="post" accept-charset="UTF-8">
+                    <form action="{{ route('markComplete', $listItem->id)}}" method="post" accept-charset="UTF-8">
                         {{csrf_field()}}
 
                         <button type="submit">Mark Complate</button>

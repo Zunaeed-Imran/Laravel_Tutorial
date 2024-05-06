@@ -13,8 +13,9 @@ class TodoListController extends Controller
         return view('welcome', ['listingItems' => Listingitem::all()]);
     }
 
-    public function markComplete()
+    public function markComplete($id)
     {
+        \log($id);
         return redirect('/');
     }
     public function saveItem(Request $request)
