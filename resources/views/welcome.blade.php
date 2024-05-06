@@ -20,7 +20,12 @@
                 @foreach ($listItems as $listItem)
                 <div>
                     <p>Item: {{$listItem->name}}</p>
-                    <button type="submit">Mark Complate</button>
+
+                    <form action="{{ route('markComplete')}}" method="post" accept-charset="UTF-8">
+                        {{csrf_field()}}
+
+                        <button type="submit">Mark Complate</button>
+                    </form>
                 </div>
                 @endforeach
 
