@@ -18,7 +18,10 @@
 
         {{-- for render  List  --}}
                 @foreach ($listItems as $listItem)
+                <div>
                     <p>Item: {{$listItem->name}}</p>
+                    <button type="submit">Mark Complate</button>
+                </div>
                 @endforeach
 
 
