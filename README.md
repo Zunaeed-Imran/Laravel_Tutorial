@@ -2,11 +2,15 @@
 
 ## something i need to remember, or what i learn new.
 
+-   In the context of Laravel, "bootstrapping" refers to the process of initializing and setting up the application environment.
 -   in 'config/app.php' we can set Application Debug Mode.
 -   If you change your application's encryption key, all authenticated user sessions will be logged out of your application, it will no longer be possible to decrypt any data that was encrypted with your previous encryption key.
 -   To mitigate this issue, Laravel allows you to list your previous encryption.
 -   Migration squashing is only available for the MySQL, PostgreSQL, and SQLite.
 -   he following command will roll back the last five migrations: `php artisan migrate:rollback --step=5`
+-   While the framework internally uses dozens of service providers, you also have the option to create your own, `bootstrap/providers.php` file.
+-   service providers are the most important aspect of the entire Laravel bootstrap process.
+-   Dependency injection is: class dependencies are "injected" into the class via the constructor.
 
 #### Done task for today
 
@@ -18,4 +22,16 @@
 -   Database: Migrations introduction document reading.
 -   Database: Migrations table document reading.
 -   Rolling Back Migrations reading documentation.
--
+
+-   Reading Document about Introduction of Request Lifecycle.
+  -  Reading Document HTTP / Console Kernels.
+  -  Reading Document Service Providers.
+  -  Reading Document Routing.
+  -  Reading Document Focus on Service Providers.
+-   Reading Document about Service Container.
+  -  Reading introduction.
+  -  Reading Zero Configuration Resolution.
+  -  Reading When to Utilize the Container.
+  -  Reading Simple Bindings.
+  -  
+
