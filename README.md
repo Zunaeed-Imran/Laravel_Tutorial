@@ -11,6 +11,9 @@
 -   While the framework internally uses dozens of service providers, you also have the option to create your own, `bootstrap/providers.php` file.
 -   service providers are the most important aspect of the entire Laravel bootstrap process.
 -   Dependency injection is: class dependencies are "injected" into the class via the constructor.
+-   Remember, controllers, event listeners, middleware, and various other types of classes within Laravel applications are always resolved using the container:
+
+
 
 #### Done task for today
 
@@ -35,3 +38,26 @@
   -  Reading Simple Bindings.
   -  
 
+-   Reading Document about Service Container.
+  -   Reading Binding A Singleton.
+  -   Reading Binding Scoped Singletons.
+  -   Reading Binding Instances.
+  -   Reading Binding Interfaces to Implementations.
+  -   Reading Contextual Binding.
+  -   Reading Binding Primitives.
+  -   Reading Binding Typed Variadics.
+  -   Tagging.
+  -   Extending Binding.
+  -   The make Method.
+      Automatic Injection.
+      Method Invocation and injection.
+      Container Event.
+      PSR-11
+- Reading Document about Service Providers.
+Introduction.
+writing service Providers.
+The register method.
+the binding and singletones properties.
+The Boot method.
+Registering Provisers.
+Deferred Providers.      
