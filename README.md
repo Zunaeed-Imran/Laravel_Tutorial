@@ -54,10 +54,11 @@
       Container Event.
       PSR-11
 - Reading Document about Service Providers.
-Introduction.
-writing service Providers.
-The register method.
-the binding and singletones properties.
-The Boot method.
-Registering Provisers.
-Deferred Providers.      
+- Introduction.
+- writing service Providers.
+- The register method.
+- the binding and singletones properties.
+- The Boot method.
+- Registering Provisers.
+- Deferred Providers. 
+     
