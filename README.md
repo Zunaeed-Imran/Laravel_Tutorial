@@ -62,3 +62,11 @@
 - Registering Provisers.
 - Deferred Providers. 
      
+-   reading document Facades Introduction
+  - Helper Functions
+  - When to Utilize Facades
+  - Facades vs. Dependency Injection
+  - Facades vs. Helper Functions
+  - How Facades Work
+  - Real-Time Facades
+  - Facade Class Reference
