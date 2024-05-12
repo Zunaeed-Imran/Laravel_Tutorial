@@ -12,7 +12,7 @@
 -   service providers are the most important aspect of the entire Laravel bootstrap process.
 -   Dependency injection is: class dependencies are "injected" into the class via the constructor.
 -   Remember, controllers, event listeners, middleware, and various other types of classes within Laravel applications are always resolved using the container:
-
+-   `Redirect Routes` This method provides a convenient shortcut so that you do not have to define a full route or controller for performing a simple redirect: 
 
 
 #### Done task for today
@@ -78,16 +78,18 @@
   - CSRF Protection
   - Redirect Routes
   - View Routes
-  - The Route List
-- Required Parameters
-  - Parameters and Dependency Injection
+  - The Route List 
+  - Routing Customization 
+- Required Parameters 
+  - Parameters and Dependency Injection 
   - Optional Parameters
   - Regular Expression Constraints
-- Global Constraints
-- Encoded Forward Slashes
-- Named Routes
-- Generating URLs to Named Routes
-- Inspecting the Current Route
+- Global Constraints 
+- Encoded Forward Slashes 
+- Named Routes 
+- Generating URLs to Named Routes -
+
+- Inspecting the Current Route 
 - Route Groups
 - Middleware
 - Controllers
