@@ -70,3 +70,48 @@
   - How Facades Work
   - Real-Time Facades
   - Facade Class Reference
+
+-   Basic Routing  
+  - The Default Route Files
+  - Available Router Methods
+  - Dependency Injection
+  - CSRF Protection
+  - Redirect Routes
+  - View Routes
+  - The Route List
+- Required Parameters
+  - Parameters and Dependency Injection
+  - Optional Parameters
+  - Regular Expression Constraints
+- Global Constraints
+- Encoded Forward Slashes
+- Named Routes
+- Generating URLs to Named Routes
+- Inspecting the Current Route
+- Route Groups
+- Middleware
+- Controllers
+- Subdomain Routing
+- Route Prefixes
+- Route Name Prefixes
+- Route Model Binding
+- Implicit Binding
+- Soft Deleted Models
+- Customizing the Key
+- Custom Keys and Scoping
+- Customizing Missing Model Behavior
+- Implicit Enum Binding
+- Explicit Binding
+- Customizing the Resolution Logic
+- Fallback Routes
+- Rate Limiting
+  - Defining Rate Limiters
+  - Segmenting Rate Limits
+  - Multiple Rate Limits
+  - Attaching Rate Limiters to Routes
+  - Throttling With Redis
+- Form Method Spoofing
+- Accessing the Current Route
+- Cross-Origin Resource Sharing (CORS)
+- Route Caching
+- 
