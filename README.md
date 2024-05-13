@@ -87,23 +87,24 @@
 - Global Constraints 
 - Encoded Forward Slashes 
 - Named Routes 
-- Generating URLs to Named Routes -
+- Generating URLs to Named Routes
 
-- Inspecting the Current Route 
+- Inspecting the Current Route -
 - Route Groups
 - Middleware
-- Controllers
-- Subdomain Routing
-- Route Prefixes
-- Route Name Prefixes
-- Route Model Binding
-- Implicit Binding
-- Soft Deleted Models
-- Customizing the Key
-- Custom Keys and Scoping
-- Customizing Missing Model Behavior
+- Controllers 
+- Subdomain Routing 
+- Route Prefixes 
+- Route Name Prefixes 
+- Route Model Binding 
+- Implicit Binding 
+- Soft Deleted Models 
+- Customizing the Key 
+- Custom Keys and Scoping 
+- Customizing Missing Model Behavior 
 - Implicit Enum Binding
-- Explicit Binding
+- Explicit Binding -
+
 - Customizing the Resolution Logic
 - Fallback Routes
 - Rate Limiting
