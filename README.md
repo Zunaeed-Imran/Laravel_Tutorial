@@ -117,4 +117,10 @@
 - Accessing the Current Route
 - Cross-Origin Resource Sharing (CORS)
 - Route Caching
-- 
+
+
+- Knowing MySQL Blackhole.
+- Knowing MySQL Archive Storage Engine
+- rivision some old javascript.
+- see some tutorial about laravel.
+
