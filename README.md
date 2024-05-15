@@ -89,7 +89,7 @@
 - Named Routes 
 - Generating URLs to Named Routes
 
-- Inspecting the Current Route -
+- Inspecting the Current Route 
 - Route Groups
 - Middleware
 - Controllers 
@@ -103,24 +103,32 @@
 - Custom Keys and Scoping 
 - Customizing Missing Model Behavior 
 - Implicit Enum Binding
-- Explicit Binding -
-
-- Customizing the Resolution Logic
-- Fallback Routes
-- Rate Limiting
-  - Defining Rate Limiters
-  - Segmenting Rate Limits
-  - Multiple Rate Limits
-  - Attaching Rate Limiters to Routes
-  - Throttling With Redis
-- Form Method Spoofing
-- Accessing the Current Route
-- Cross-Origin Resource Sharing (CORS)
-- Route Caching
-
+- Explicit Binding 
 
 - Knowing MySQL Blackhole.
 - Knowing MySQL Archive Storage Engine
 - rivision some old javascript.
 - see some tutorial about laravel.
 
+- Customizing the Resolution Logic 
+- Fallback Routes
+- Rate Limiting
+  - Defining Rate Limiters
+  - Segmenting Rate Limits
+  - Multiple Rate Limits
+  - Attaching Rate Limiters to Routes 
+  - Throttling With Redis
+- Form Method Spoofing
+- Accessing the Current Route
+- Cross-Origin Resource Sharing (CORS) 
+- Route Caching
+
+- Introduction -
+- Defining Middleware
+- Middleware and Responses
+- Global Middleware
+- Assigning Middleware to Routes
+- Excluding Middleware
+
+i will be leaving the office now.
+i can't join office at may 16 && 18 for family program and arrange
