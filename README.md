@@ -123,12 +123,18 @@
 - Cross-Origin Resource Sharing (CORS) 
 - Route Caching
 
-- Introduction -
-- Defining Middleware
-- Middleware and Responses
-- Global Middleware
-- Assigning Middleware to Routes
-- Excluding Middleware
+- Introduction Middleware 
+- Defining Middleware 
+- Middleware and Responses 
+- Global Middleware 
+- Assigning Middleware to Routes 
+- Excluding Middleware 
+- Middleware Groups 
+- Laravel's Default Middleware Groups 
+- Manually Managing Laravel's Default Middleware Groups
+- Middleware Aliases 
+- Sorting Middleware 
 
-i will be leaving the office now.
-i can't join office at may 16 && 18 for family program and arrange
+- Middleware Parameters -
+- Terminable Middleware
+- 
