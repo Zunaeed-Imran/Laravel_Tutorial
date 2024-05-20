@@ -135,6 +135,33 @@
 - Middleware Aliases 
 - Sorting Middleware 
 
-- Middleware Parameters -
-- Terminable Middleware
+- Middleware Parameters 
+- Terminable Middleware 
+
+- Controllers Introduction 
+- Basic Controllers 
+- Single Action Controllers 
+- Controller Middleware 
+- Resource Controllers
+- Actions Handled by Resource Controllers
+- Customizing Missing Model Behavior 
+- Soft Deleted Models 
+- Specifying the Resource Model 
+- Generating Form Requests 
+- Partial Resource Routes -
+
+- API Resource Routes
+- Nested Resources
+- Scoping Nested Resources
+- Shallow Nesting
+- Naming Resource Routes
+- Naming Resource Route Parameters
+- Scoping Resource Routes
+- Localizing Resource URIs
+- Supplementing Resource Controllers
+- Singleton Resource Controllers
+- Creatable Singleton Resources
+- API Singleton Resources
+- Constructor Injection
+- Method Injection
 - 
