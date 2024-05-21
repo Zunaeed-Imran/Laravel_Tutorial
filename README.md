@@ -148,20 +148,22 @@
 - Soft Deleted Models 
 - Specifying the Resource Model 
 - Generating Form Requests 
-- Partial Resource Routes -
+- Partial Resource Routes 
 
-- API Resource Routes
-- Nested Resources
-- Scoping Nested Resources
-- Shallow Nesting
-- Naming Resource Routes
-- Naming Resource Route Parameters
-- Scoping Resource Routes
+- API Resource Routes 
+- Nested Resources 
+- Scoping Nested Resources 
+- Shallow Nesting 
+- Naming Resource Routes 
+- Naming Resource Route Parameters 
+- Scoping Resource Routes 
 - Localizing Resource URIs
-- Supplementing Resource Controllers
-- Singleton Resource Controllers
+- Supplementing Resource Controllers 
+- Singleton Resource Controllers 
 - Creatable Singleton Resources
 - API Singleton Resources
-- Constructor Injection
-- Method Injection
-- 
+- Constructor Injection 
+- Method Injection -
+
+- HTTP Requests Introduction
+- Accessing the Request
