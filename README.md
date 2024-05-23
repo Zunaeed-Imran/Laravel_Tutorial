@@ -163,7 +163,46 @@
 - Creatable Singleton Resources
 - API Singleton Resources
 - Constructor Injection 
-- Method Injection -
+- Method Injection 
 
-- HTTP Requests Introduction
+- HTTP Requests Introduction 
 - Accessing the Request
+- Dependency Injection and Route Parameters
+- Request Path, Host, and Method
+- Retrieving the Request Path
+- Inspecting the Request Path / Route
+- Retrieving the Request URL
+- Retrieving the Request Host
+- Retrieving the Request Method
+- Request Headers
+- Request IP Address
+- Content Negotiation
+- PSR-7 Requests
+- Retrieving All Input Data
+- Retrieving an Input Value
+- Retrieving Input From the Query String
+- Retrieving JSON Input Values -
+- Retrieving Stringable Input Values
+- Retrieving Boolean Input Values
+- Retrieving Date Input Values
+- Retrieving Enum Input Values
+- Retrieving Input via Dynamic Properties
+- Retrieving a Portion of the Input Data
+- Input Presence
+- Merging Additional Input
+- Old Input
+- Flashing Input to the Session
+- Flashing Input Then Redirecting
+- Retrieving Old Input
+- Retrieving Cookies From Requests
+- Input Trimming and Normalization
+- Disabling Input Normalization
+- Retrieving Uploaded Files
+- Validating Successful Uploads
+- File Paths and Extensions
+- Other File Methods
+- Storing Uploaded Files
+- Configuring Trusted Proxies
+- Trusting All Proxies
+- Configuring Trusted Hosts
+- 
