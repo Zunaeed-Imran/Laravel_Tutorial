@@ -181,7 +181,8 @@
 - Retrieving All Input Data
 - Retrieving an Input Value
 - Retrieving Input From the Query String
-- Retrieving JSON Input Values -
+- Retrieving JSON Input Values 
+
 - Retrieving Stringable Input Values
 - Retrieving Boolean Input Values
 - Retrieving Date Input Values
@@ -190,8 +191,8 @@
 - Retrieving a Portion of the Input Data
 - Input Presence
 - Merging Additional Input
-- Old Input
-- Flashing Input to the Session
+- Old Input 
+- Flashing Input to the Session -
 - Flashing Input Then Redirecting
 - Retrieving Old Input
 - Retrieving Cookies From Requests
