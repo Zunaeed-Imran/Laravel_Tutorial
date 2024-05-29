@@ -3,8 +3,10 @@
 
 
 ## What i learn from this tutorial or project.
-- 
-
+- we install some extersion in this project 
+- `Laravel Blade formatter`
+- `Laravel Extra Intellisense`
+- `Laravel Blade Snippets`
 
 
 
