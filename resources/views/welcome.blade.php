@@ -10,9 +10,19 @@
     
 
     <body>
-   <h1 class="
-   bg-red-500
-   text-4xl
-   text-center">Hello</h1>
+      
+      @if (false)
+      <h1 class="
+      bg-red-500
+      text-4xl
+      text-center">Hello</h1>
+
+  @else
+      <h1 class="
+      bg-red-500
+      text-4xl
+      text-center">Bye</h1>
+  @endif
+
     </body>
 </html>
