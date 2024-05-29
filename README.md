@@ -192,13 +192,14 @@
 - Input Presence
 - Merging Additional Input
 - Old Input 
-- Flashing Input to the Session -
+- Flashing Input to the Session
 - Flashing Input Then Redirecting
 - Retrieving Old Input
 - Retrieving Cookies From Requests
 - Input Trimming and Normalization
 - Disabling Input Normalization
-- Retrieving Uploaded Files
+- Retrieving Uploaded Files -
+
 - Validating Successful Uploads
 - File Paths and Extensions
 - Other File Methods
