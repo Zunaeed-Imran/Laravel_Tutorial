@@ -16,4 +16,5 @@
 - setup the new tutorial environment.
 - read document Blade Directives.
 - read dcoument If Statements.
+- Blade & Anonymous Components practice.
 - 
