@@ -198,13 +198,37 @@
 - Retrieving Cookies From Requests
 - Input Trimming and Normalization
 - Disabling Input Normalization
-- Retrieving Uploaded Files -
+- Retrieving Uploaded Files 
 
-- Validating Successful Uploads
+- Validating Successful Uploads -
 - File Paths and Extensions
 - Other File Methods
 - Storing Uploaded Files
 - Configuring Trusted Proxies
 - Trusting All Proxies
 - Configuring Trusted Hosts
+
+- Strings and Arrays
+- Response Objects
+- Eloquent Models and Collections
+- Attaching Headers to Responses
+- Cache Control Middleware
+- Attaching Cookies to Responses
+- Generating Cookie Instances
+- Expiring Cookies Early
+- Cookies and Encryption
+- Redirects
+- Redirecting to Named Routes
+- Populating Parameters via Eloquent Models
+- Redirecting to Controller Actions
+- Redirecting to External Domains
+- Redirecting With Flashed Session Data
+- Redirecting With Input
+- Other Response Types
+- View Responses
+- JSON Responses
+- File Downloads
+- Streamed Downloads
+- File Responses
+- Response Macros
 - 
