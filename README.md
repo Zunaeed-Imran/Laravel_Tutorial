@@ -11,4 +11,9 @@
 
 
 #### today task list
+- i don't understand documentation properly, so i watch tutorial form beginning.
+- watching a new laravel_11 tutorial.
+- setup the new tutorial environment.
+- read document Blade Directives.
+- read dcoument If Statements.
 - 
