@@ -10,8 +10,20 @@
   <title>Document</title>
 </head>
 <body>
+
+  <header>
+    <nav>
+      <a href="">Home</a>
+
+      <div>
+        <a href="#" class="nav-link">Login</a>
+        <a href="{{ route('register')}}" class="nav-link">Register</a>
+      </div>
+    </nav>
+  </header>
+
   <main>
-    @yield('main');
+    @yield('main')
     <h1 class="bg-blue-500 text-center text-4xl">Hello from layout</h1>
 
   </main>

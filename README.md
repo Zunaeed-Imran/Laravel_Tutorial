@@ -19,4 +19,6 @@
 - Blade & Anonymous Components practice.
 
 - Web routes practicing.
-- 
+- practice Database Migrations.
+- practice Controllers & Forms.
+- practicing Validations.
