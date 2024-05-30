@@ -17,4 +17,6 @@
 - read document Blade Directives.
 - read dcoument If Statements.
 - Blade & Anonymous Components practice.
+
+- Web routes practicing.
 - 

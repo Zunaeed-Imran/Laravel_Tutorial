@@ -10,19 +10,15 @@
     
 
     <body>
-      
-      @if (false)
-      <h1 class="
-      bg-red-500
-      text-4xl
-      text-center">Hello</h1>
+      <main>
 
-  @else
-      <h1 class="
-      bg-red-500
-      text-4xl
-      text-center">Bye</h1>
-  @endif
+      @section('main')
+        <h2>Hello</h2>
+      @endsection;
+        
+    
+
+      </main>
 
     </body>
 </html>
