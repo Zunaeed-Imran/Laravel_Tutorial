@@ -18,7 +18,7 @@
 
           <div class="flex-item-center gap-4">
             <a href="#" class="nav-link">Login</a>
-            <a href="#" class="nav-link">Register</a>
+            <a href="{{ route('register') }}" class="nav-link">Register</a>
           </div>
 
         </nav>
