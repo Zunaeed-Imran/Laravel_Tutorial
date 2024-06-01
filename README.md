@@ -7,7 +7,7 @@
 - `Laravel Blade formatter`
 - `Laravel Extra Intellisense`
 - `Laravel Blade Snippets`
-
+- Component tags all start with `x` `<x-layout></x-layout>`
 
 
 #### today task list
@@ -22,3 +22,5 @@
 - practice Database Migrations.
 - practice Controllers & Forms.
 - practicing Validations.
+
+- practice Register Users

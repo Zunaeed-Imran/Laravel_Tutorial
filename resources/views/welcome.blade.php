@@ -1,24 +1,16 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-          @vite('resources/css/app.css')
-        <title>Laravel</title>
-    </head>
 
-    
+<x-layout>
+  
+  <h1>Hello From Welcome page</h1>
 
-    <body>
-      <main>
+</x-layout>
 
-      @section('main')
-        <h2>Hello</h2>
-      @endsection;
-        
-    
 
-      </main>
 
-    </body>
-</html>
+
+
+
+
+{{-- 36 * 15 = 540
+14 * 16 = 224
+total = 764. --}}
