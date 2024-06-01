@@ -10,15 +10,21 @@
 
     
 
-    <body>
+    <body class="bg-slate-100 text-white">
 
-      <header>
+      <header class="bg-slate-800 shadow-lg">
         <nav>
-          <h1 class="text-4xl">Nav</h1>
+          <a href="#" class="nav-link">Home</a>
+
+          <div class="flex-item-center gap-4">
+            <a href="#" class="nav-link">Login</a>
+            <a href="#" class="nav-link">Register</a>
+          </div>
+
         </nav>
       </header>
 
-      <main>
+      <main class="py-8 px-4 mx-auto max-w-screen-lg">
         {{$slot}}
       </main>
 
