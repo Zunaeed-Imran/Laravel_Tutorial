@@ -20,4 +20,4 @@ Route::get('/', function () {
 
 
 //  call it from browser the function return will show.
-Route::get('/greet', [FunctionPractice::class, 'greet']);
+Route::get('/greet/{$x}', [FunctionPractice::class, 'greet']);
