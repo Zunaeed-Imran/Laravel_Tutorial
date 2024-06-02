@@ -8,7 +8,12 @@
 - `Laravel Extra Intellisense`
 - `Laravel Blade Snippets`
 - Component tags all start with `x` `<x-layout></x-layout>`
-
+- i need to learn properly to understand all laravel ```
+- Variable 
+- Loop
+- Function
+- Condation
+```
 
 #### today task list
 - i don't understand documentation properly, so i watch tutorial form beginning.

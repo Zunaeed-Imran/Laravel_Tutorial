@@ -7,14 +7,26 @@
       @csrf
       
       <div class="mb-4">
-        <input type="text" name="name" placeholder="Name">
+        <input type="text" name="username" placeholder="Name">
+        @error('username')
+          {{ $message }}
+        @enderror
       </div>
+
       <div class="mb-4">
         <input type="text" name="email" placeholder="Email">
+        @error('email')
+          <p class="error">{{$message}}</p>
+        @enderror
       </div>
+
       <div class="mb-4">
         <input type="text" name="password" placeholder="Password">
+        @error('password')
+          <p class="error">{{$message}}</p>
+        @enderror
       </div>
+
       <div class="mb-4">
         <input type="text" name="password_confirmation" placeholder="Password_confirmation">
       </div>
