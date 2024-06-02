@@ -8,7 +8,8 @@
 - `Laravel Extra Intellisense`
 - `Laravel Blade Snippets`
 - Component tags all start with `x` `<x-layout></x-layout>`
-- i need to learn properly to understand all laravel ```
+- i need to learn properly to understand all laravel 
+```
 - Variable 
 - Loop
 - Function
